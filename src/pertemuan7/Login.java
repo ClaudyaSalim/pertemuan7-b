@@ -25,7 +25,7 @@ public class Login {
 	}
 
 	// Exception handling 
-	
+	    
 	public void check(String password) throws Exception { // function buat custom error sendiri
 		if(password.equals("12345")){
 			System.out.println("Lanjut");
